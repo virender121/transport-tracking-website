@@ -1,0 +1,29 @@
+.about_pic {
+    min-height: 75vh;
+    background-image: url("../../components/Images/AboutBackgroundImage.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .header-title {
+    font-size: 2.2rem;
+    color: #fff;
+  }
+  
+  .header-text {
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    max-width: 770px;
+    color: #fff;
+  }
+  
+  .pic_text {
+    margin-top: 8rem;
+  }
+  

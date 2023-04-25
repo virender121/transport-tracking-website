@@ -1,0 +1,34 @@
+.home-content {
+    min-height: 100vh;
+    background-image: url("../../components/Images/HomeImage1.jpg"), url("../../components/Images/HomeImage2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    animation: animateBackground 20s linear infinite;
+  }
+  
+  @keyframes animateBackground {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .company_work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .company_work > * {
+    margin: 10px;
+    flex: 1 1 300px; /* adjust the width as needed */
+  }
