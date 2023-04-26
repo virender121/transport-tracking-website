@@ -1,34 +1,34 @@
 .homecard1 {
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: space-between;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-  
-  .card-header {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 1rem;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-    text-align: start;
-    width: calc(33.33% - 1rem);
-  }
-  
-  .card-header h3 {
-    font-size: 1.5rem;
-    margin: 0;
-  }
-  
-  .card-header span {
-    display: block;
-    margin-top: 0.5rem;
-    font-size: 1rem;
-  }
-  .btn{
-    margin: 1rem;
-    background-color: black;
-    color: #fff;
-    height: 2rem;
-    border-radius: 15px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.card-header {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  text-align: start;
+  width: calc(33.33% - 1rem);
+}
+
+.card-header h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.card-header span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.btn {
+  margin: 1rem;
+  background-color: black;
+  color: #fff;
+  height: 2rem;
+  border-radius: 15px;
+}
