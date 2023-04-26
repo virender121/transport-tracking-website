@@ -1,24 +1,250 @@
-/* Set initial state of the h1 tag */
-h1 {
-    position: relative;
-    top: -50px;
-    opacity: 0;
-  }
-  
-  /* Define animation and keyframes */
-  @keyframes slideInFromTop {
-    0% {
-      top: -50px;
-      opacity: 0;
-    }
-    100% {
-      top: 0;
-      opacity: 1;
-    }
-  }
+
   
   /* Apply animation to the h1 tag when it is in the active carousel item */
   .carousel-item.active h1 {
     animation: slideInFromTop 0.5s ease-in-out;
   }
+  
+  /* Styles for the car-highlight1 class */
+.carouselText1 {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    --page-title-display: block;
+    font-family: 'Roboto' , sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    margin: .67em 0;
+    font-style: normal;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+    border: 10px none #F0004E;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #FFCC00;
+    padding: 5px 20px 5px 0px;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    word-spacing: 0.1em;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    visibility: visible;
+    animation-duration: 1000ms;
+    animation-delay: 150ms; 
+  }
+
+  .wow.fadeInDown {
+    visibility: visible;
+    animation-name: fadeInDown;
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  /* Styles for the car-highlight2 class */
+  .car-highlight2 {
+    background-color: #008000; /* Green text */
+    font-size: 20px; /* Slightly smaller font size */
+    color: #fff;
+
+  }
+  
+  /* Styles for the car-highlight3 class */
+  .car-highlight3 {
+    color: #0000FF; /* Blue text */
+    font-size: 24px; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+  }
+  
+  /* Styles for the car-mediumtext2 class */
+  .car-mediumtext2 {
+    margin-left: 20px; /* Add some margin to the left */
+  }
+  
+  /* Styles for the hidden-xs class (visible only on larger screens) */
+  @media (min-width: 768px) {
+    .hidden-xs {
+      display: none; /* Hide on smaller screens */
+    }
+  }
+ .car-highlight1 {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  --page-title-display: block;
+  font-style: normal;
+  list-style: none;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #006600;
+  text-decoration: none;
+  padding: 15px 10px 15px 10px;
+  border-width: 10px;
+  border-color: rgb(158, 158, 158);
+  border-style: none solid none none;
+  display: inline-block;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-family: "Cambria";
+  visibility: visible;
+  animation-duration: 1200ms;
+  animation-delay: 300ms;
+}
+
+.car-highlight3{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    --page-title-display: block;
+    font-style: normal;
+    font-family: 'Open Sans';
+    list-style: none;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    border-style: none solid none none;
+    border-width: 10px;
+    border-color: #004182;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 10px 15px 10px;
+    margin-left: -6px;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #0066DC;
+    border-radius: 5px;
+    text-transform: capitalize;
+    visibility: visible;
+    animation-duration: 2400ms;
+    animation-delay: 900ms;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .car-mediumtext li {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  .car-mediumtext li i {
+    position: absolute;
+    left: -1.5rem;
+    top: 0.3rem;
+    color: #20c997;
+  }
+  
+  @media (min-width: 576px) {
+    .car-mediumtext li {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .car-mediumtext li {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .car-mediumtext li {
+      font-size: 1.6rem;
+    }
+  }
+  
+
+  .wow.fadeInRight.animated {
+    animation-name: fadeInRight;
+    animation-duration: 1.5s;
+    animation-delay: 0.1s;
+    visibility: visible !important;
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-lg {
+    padding: 12px 24px;
+    font-size: 20px;
+  }
+  
+  .btn-borderwhite {
+    border: 2px solid green;
+    color: #fff;   
+  }
+  
+  .btn-borderwhite:hover {
+    background-color: #fff;
+    color: #444;
+  }
+  
+  .wow {
+    visibility: hidden;
+  }
+  
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  .fadeInUp {
+    animation-name: fadeInUp;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 50%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  
   
