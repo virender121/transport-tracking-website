@@ -34,10 +34,10 @@ export default function Footer(){
     return(
         <footer className='footer'>
             <div className='left-footer'>
-                <div className='heading'><h2>ABC <span style={{color:"yellow"}}>Transport</span></h2></div>
-                <span>Home|Aboutus|Features|Clients|Contact</span>
-                <p>Copyright&copy;2021<span style={{color:"red"}}>ABC TRANSPORT</span> | Logistics.</p>
-                <p>Simplified. All Rights Reserved</p>
+                <div className='footer-heading'><h2>ABC <span style={{color:"yellow"}}>Transport</span></h2></div>
+                <span >Home|Aboutus|Features|Clients|Contact</span>
+                <p className='text fs-16'style={{marginTop:'0.4rem'}}>Copyright&copy;2021<span style={{color:"red"}}>ABC TRANSPORT</span> | Logistics.</p>
+                <p className='text fs-16'>Simplified. All Rights Reserved</p>
             </div>
             <div className='middle'>
                 <p><ImLocation/><span style={{color:"yellow"}}>Ulhasnagar Mumbai</span></p>
@@ -45,7 +45,7 @@ export default function Footer(){
                <p><HiMail/> <span style={{color:"yellow"}}>virender.digitalshakha@gmail.com</span></p>
             </div>
             <div className='wrapper'>
-                <p>About the company <span style={{color:"red"}}>ABC TRANSPORT</span>introduce ourselves as one of the leading transport company of India founded in january, 1995 having their own fleetof 475 trucks, including Car Carrier Trailers/Goods Containers Trailers/ Multi XL Containers.</p>
+                <p className='text fs-15'>About the company <span style={{color:"red"}}>ABC TRANSPORT</span>introduce ourselves as one of the leading transport company of India founded in january, 1995 having their own fleetof 475 trucks, including Car Carrier Trailers/Goods Containers Trailers/ Multi XL Containers.</p>
              <div className='icons'>{
                 pageLInks.map(({ icon,url},index )=> (
                     <a href = {url} target = '_blank' key={index} >

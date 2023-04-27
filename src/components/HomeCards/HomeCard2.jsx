@@ -107,6 +107,7 @@ const featureData = [{
 const HomeCard2 = () => {
   return (
     <div className='homecard2'>
+     
         {
           featureData.map(({icon,text},index)=>{
             return (

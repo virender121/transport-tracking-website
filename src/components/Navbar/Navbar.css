@@ -14,15 +14,15 @@
   
   .navbar-brand {
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 400;
     color: #333;
   }
   
   .nav-link {
     margin-right: 2rem;
-    font-size: 1.125rem;
-    font-weight: 400;
-    color: #333;
+    /* font-size: 1.125rem; */
+    font-weight: 700;
+    color: #fff;
     text-decoration: none;
   }
   
