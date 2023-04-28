@@ -2,7 +2,6 @@ import React from 'react'
 import { GiNotebook } from 'react-icons/gi';
 import {GrMail,GrMapLocation} from 'react-icons/gr';
 import {CgProfile,CgPhone} from 'react-icons/cg';
-import { SiAmazonpay } from 'react-icons/si';
 import { BiBookContent } from 'react-icons/bi';
 import {FaPaperPlane,FaTruck, FaPeopleCarry,FaTruckMoving,FaRupeeSign,FaWarehouse ,FaHandshake, FaPlane 
 }from 'react-icons/fa';
@@ -31,10 +30,7 @@ const featureData = [{
   icon:<CgProfile/>,
   text: 'Agency or User Control'
 },
-{
-  icon:<SiAmazonpay/>,
-  text: 'HR and Payroll Report'
-},
+
 {
   icon: <BiBookContent/>,
   text:'Consignment'

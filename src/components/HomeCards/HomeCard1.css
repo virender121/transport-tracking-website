@@ -1,28 +1,57 @@
+.container_card1{
+  max-width: 90%;
+  background-image: url("https://static.wixstatic.com/media/9a5ca0_8eceff71f4b8413dac97ab5745485785~mv2.png/v1/fill/w_556,h_669,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/images-2%201.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+}
 .homecard1 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  
+  justify-content: flex-end;
   gap: 1rem;
-}
 
-.card-header {
-  background-color: #fff;
+
+}
+.card1{
+  display: flex;
+  justify-content:flex-end;
+  margin-top: 20rem;
+  margin-bottom: 10rem;
+  background-color: var(--blue-color);
+  width: calc(33.33% - 1rem);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 1rem;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-  text-align: start;
-  width: calc(33.33% - 1rem);
+ width: 25%;
+ color: #fff;
 }
 
+
+
 .card-header h3 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin: 0;
 }
 
 .card-header span {
   display: block;
-  margin-top: 0.5rem;
-  font-size: 1rem;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+.btn2{
+  /* display: flex; */
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 0.6rem;
+  width: 10rem;
+  height:3rem;
 }
 
 

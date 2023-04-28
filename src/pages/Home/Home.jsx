@@ -1,11 +1,10 @@
 import React from 'react';
 import './Home.css';
-// import HomeCard1 from '../../components/HomeCards/HomeCard1'
+import HomeCard1 from '../../components/HomeCards/HomeCard1'
 import Footer from '../../components/Footer/Footer';
 import MyCarousel from '../../components/Carousel/Carousel';
 import HomeCard2 from '../../components/HomeCards/HomeCard2';
 import HowWorks from '../../components/HowWorks/HowWorks';
-import Testimonial from '../../components/Testimonial/Testimonial';
 
 const Home = () => {
   return (
@@ -15,8 +14,8 @@ const Home = () => {
       <HomeCard2/>
         <HowWorks/>
           
-            {/* <HomeCard1/> */}
-          <Testimonial/>  
+            <HomeCard1/>
+          
         
       <Footer/>
     </div>
