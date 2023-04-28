@@ -194,57 +194,80 @@
       transform: translateX(0);
     }
   }
+  
+  
   .btn {
     display: inline-block;
-    padding: 10px 20px;
-    border-radius: 5px;
     font-size: 18px;
-    font-weight: 600;
-    justify-content: center;
+    font-weight: 700;
+    padding: 20px 30px;
+    border: 2px solid #fff;
+    color: var(--blue-color);
     text-align: center;
-    text-decoration: none;
     text-transform: uppercase;
-    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin: 20px;
   }
   
-  .btn-lg {
-    padding: 12px 24px;
-    font-size: 20px;
-  }
-  
+  .btn:hover {
+    background: #fff;
+    color: #000;
+  } 
+   
   .btn-borderwhite {
-    border: 2px solid green;
-    color: #fff;   
+    background: transparent;
   }
   
   .btn-borderwhite:hover {
-    background-color: #fff;
-    color: #444;
+    border-color: #fff;
+  }
+  
+  .btn-lg {
+    font-size: 24px;
+    padding: 30px 50px;
   }
   
   .wow {
     visibility: hidden;
   }
   
-  .animated {
-    animation-duration: 1s;
-    animation-fill-mode: both;
+  .wow.animated {
+    visibility: visible;
   }
   
   .fadeInUp {
     animation-name: fadeInUp;
   }
   
+  .animated {
+    animation-duration: 1500ms;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+  }
+  
+  .animated:nth-child(1) {
+    animation-delay: 1600ms;
+  }
+  
+  .animated:nth-child(2) {
+    animation-delay: 1700ms;
+  }
+  
+  .animated:nth-child(3) {
+    animation-delay: 1800ms;
+  }
+  
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translate3d(0, 50%, 0);
+      transform: translate3d(0, 100%, 0);
     }
+    
     to {
       opacity: 1;
-      transform: translate3d(0, 0, 0);
+      transform: none;
     }
   }
-  
-  
   

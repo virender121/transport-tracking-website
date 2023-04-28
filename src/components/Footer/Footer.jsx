@@ -4,6 +4,7 @@ import { FiFacebook ,FiYoutube,FiTwitter, FiLinkedin } from 'react-icons/fi';
 import { RiSendPlaneFill } from 'react-icons/ri';
 // import About from '../../pages/About/About';
 import Contactus from '../../pages/Contact us/Contactus';
+import logo from '../Images/companylogo.jpg'
 
 export default function Footer(){
 
@@ -12,8 +13,8 @@ export default function Footer(){
         <div className={style.footer}>
             <div className={style.footer_box}>
                 <div className={style.footer_box_social}>
-                     <img src ={Image.logo} alt= 'footer logo' height={100} width={100}/>
-                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit similique nam esse aut voluptas ab qui veniam cupiditate accusantium, placeat dolorum quaerat obcaecati pariatur molestias.</p>
+                     <img src ={logo} alt= 'footer logo' height={90} width={90}/>
+                     <p className='fs-15'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit similique nam esse aut voluptas ab qui veniam cupiditate accusantium, placeat dolorum quaerat obcaecati pariatur molestias.</p>
                      <div className={style.footer_social}>
                         <a href ="https://www.facebook.com">
                      <FiFacebook/>

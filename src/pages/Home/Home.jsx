@@ -5,17 +5,18 @@ import Footer from '../../components/Footer/Footer';
 import MyCarousel from '../../components/Carousel/Carousel';
 import HomeCard2 from '../../components/HomeCards/HomeCard2';
 import HowWorks from '../../components/HowWorks/HowWorks';
+import Testimonial from '../../components/Testimonial/Testimonial';
 
 const Home = () => {
   return (
     <div className='home'>
       <MyCarousel/>
-      <h2 style={{marginTop: "2rem", color:"rgb(47, 101, 117)"}}>200+ Features...</h2>
+      <h2 className="homeheading fs-24 fw-6">200+ Features...</h2>
       <HomeCard2/>
         <HowWorks/>
           
             {/* <HomeCard1/> */}
-            
+          <Testimonial/>  
         
       <Footer/>
     </div>

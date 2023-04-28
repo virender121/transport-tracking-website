@@ -50,7 +50,7 @@ const HowWorks = () => {
 
                                 </div>
                             </div>
-                            <hr className="featurette-divider" />
+                            {/* <hr className="featurette-divider" /> */}
                         </div>
     </section>
   )

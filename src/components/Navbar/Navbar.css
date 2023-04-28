@@ -17,6 +17,17 @@
     font-weight: 400;
     color: #333;
   }
+  .brand{
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+  
+  }
+  .brand:hover{
+    color: #007bff;
+  }
+  
   
   .nav-link {
     margin-right: 2rem;

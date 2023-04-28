@@ -112,7 +112,7 @@ const HomeCard2 = () => {
           featureData.map(({icon,text},index)=>{
             return (
               <div key={index} className="col-md-4">
-                <div className="card">
+                <div className="card fs-16">
                   <p style={{widgth:"15px",height:'15px'}}>{icon}</p>
                   <p>{text}</p>
                 </div>

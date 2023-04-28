@@ -7,11 +7,10 @@
     justify-content: center;
     align-items: center;
   }
-  .homecard{
-    margin-top: 3rem;
-    display:grid;
-    grid-template-columns: auto auto auto;
 
+  .homeheading{
+  margin-top: 2rem;
+   color:rgb(47, 101, 117);
   }
   
 

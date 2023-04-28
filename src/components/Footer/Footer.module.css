@@ -3,6 +3,7 @@
     width: 100%;
     padding-block: 1.5rem;
     position: relative;
+    background-color: var(  --bs-secondary);
 }
 
 .footer_box{
@@ -13,12 +14,14 @@
     align-items: flex-start;
     justify-content: space-between;
     gap: 3rem;
+    color: #fff;
+
 
 }
 .footer_social{
     display: flex;
     gap: 1.3rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     align-items: center;
 }
 .footer_social a{
