@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Footer from '../../components/Footer/Footer'
+// import Footer from '../../components/Footer/Footer';
 const About = () => {
   return (
     <div>
@@ -22,7 +22,7 @@ const About = () => {
             <img src='https://di-uploads-pod3.dealerinspire.com/garberautomallredesign/uploads/2019/08/silverado-header-2020.jpg' alt= 'truck'/>
           </div>
         </div>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   )
 }

@@ -19,7 +19,7 @@ const HowWorks = () => {
                                 </h4>
                             </div>
                             <div className= "col-md-5 order-md-1">
-                                <img src="https://source.unsplash.com/500x500/?exelsheet" alt />
+                                <img src="https://source.unsplash.com/500x500/?account" alt='account' />
                             </div>
                            </div>
                             <hr className="featurette-divider" />
@@ -33,7 +33,7 @@ const HowWorks = () => {
                                         able to provide transport service.</p>
                                 </div>
                                 <div className="col-md-5">
-                                    <img className="img-thumbnail" src="https://source.unsplash.com/500x500/?logistics" alt />
+                                    <img className="img-thumbnail" src="https://source.unsplash.com/500x500/?logistics" alt='logastic' />
                                     
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ const HowWorks = () => {
                                         responsibility!!</p>
                                 </div>
                                 <div className="col-md-5 order-md-1">
-                                    <img className="img-thumbnail" src="https://source.unsplash.com/500x500/?delivery" alt />
+                                    <img className="img-thumbnail" src="https://source.unsplash.com/500x500/?delivery" alt ='delivery' />
 
                                 </div>
                             </div>

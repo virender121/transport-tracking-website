@@ -1,67 +1,57 @@
 
-import './Footer.css'
+import style from './Footer.module.css';
 import { FiFacebook ,FiYoutube,FiTwitter, FiLinkedin } from 'react-icons/fi';
-import {ImLocation} from 'react-icons/im';
- import {BsFillTelephoneFill} from 'react-icons/bs'
- import {HiMail} from 'react-icons/hi'
+import { RiSendPlaneFill } from 'react-icons/ri';
+// import About from '../../pages/About/About';
+import Contactus from '../../pages/Contact us/Contactus';
 
 export default function Footer(){
 
-    const pageLInks = [
-        {
-            icon : <FiFacebook/>,
-            url : 'https://www.facebook.com'
-        },
-        {
-            icon : <FiYoutube/>,
-            url : 'https://www.youtube.com'
-        },
-        {
-            icon : <FiTwitter/>,
-            url : 'https://www.twitter.com'
-        },
-        {
-            icon : <FiLinkedin/>,
-            
-            url:' https://www.linkedin.com/'
-         
-        },
-        
-        
-
-    ]
 
     return(
-        <footer className='footer'>
-            <div className='left-footer'>
-                <div className='footer-heading'><h2>ABC <span style={{color:"yellow"}}>Transport</span></h2></div>
-                <span >Home|Aboutus|Features|Clients|Contact</span>
-                <p className='text fs-16'style={{marginTop:'0.4rem'}}>Copyright&copy;2021<span style={{color:"red"}}>ABC TRANSPORT</span> | Logistics.</p>
-                <p className='text fs-16'>Simplified. All Rights Reserved</p>
-            </div>
-            <div className='middle'>
-                <p><ImLocation/><span style={{color:"yellow"}}>Ulhasnagar Mumbai</span></p>
-                <p><BsFillTelephoneFill/><span style={{color:"yellow"}}>+91 62**86**54</span></p>
-               <p><HiMail/> <span style={{color:"yellow"}}>virender.digitalshakha@gmail.com</span></p>
-            </div>
-            <div className='wrapper'>
-                <p className='text fs-15'>About the company <span style={{color:"red"}}>ABC TRANSPORT</span>introduce ourselves as one of the leading transport company of India founded in january, 1995 having their own fleetof 475 trucks, including Car Carrier Trailers/Goods Containers Trailers/ Multi XL Containers.</p>
-             <div className='icons'>{
-                pageLInks.map(({ icon,url},index )=> (
-                    <a href = {url} target = '_blank' key={index} >
-                        <p className = 'icon'>
-                            {icon}
-                        </p> 
-                    </a>
-                ))
-            }
-            </div>
+        <div className={style.footer}>
+            <div className={style.footer_box}>
+                <div className={style.footer_box_social}>
+                     <img src ={Image.logo} alt= 'footer logo' height={100} width={100}/>
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit similique nam esse aut voluptas ab qui veniam cupiditate accusantium, placeat dolorum quaerat obcaecati pariatur molestias.</p>
+                     <div className={style.footer_social}>
+                        <a href ="https://www.facebook.com">
+                     <FiFacebook/>
+                     </a>
+                     <a href = " https://www.linkedin.com/">
+                     <FiLinkedin/>
+                     </a>
+                     <a href = "https://www.twitter.com">
+                        <FiTwitter/>
+                     </a>
+                     <a href = "https://www.youtube.com">
+                        <FiYoutube/>
+                     </a>
+                     </div>
+                </div>
+                <div className={style.footer_box_about}>
+                    <h3>Aboutus</h3>
+                    {/* <About/> */}
+                </div>
+                <div className={style.footer_box_feature}>
+                    <h3>Feature</h3>
+                    <Contactus/>
+                </div>
+                <div className={style.subscribe}>
+                    <h3>Subscribe</h3>
+               
+                <div className={style.subscribe_box}>
+                    <input type='email' placeholder='Enter your email *'/>
+                    <RiSendPlaneFill className={style.subscribe_box_send}/>
 
+                </div>
+                <div className={style.subscribe_box_info}>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum numquam deserunt rerum voluptates recusandae modi dolore itaque quo?</p>
+                </div>
             </div>
-
-          
-
-
-        </footer>
+            </div>
+        </div>
     )
 }
+
+
