@@ -38,7 +38,7 @@ function NavigationBar() {
             Separated link
           </NavDropdown.Item>
         </NavDropdown>
-        <Nav.Link href="/videos">Our videos</Nav.Link>
+        <Nav.Link href="/videos">Demo videos</Nav.Link>
         <Nav.Link href="/subscription">Subscription</Nav.Link>
         <Nav.Link href="/contact">Contact Us</Nav.Link>
       </Nav>

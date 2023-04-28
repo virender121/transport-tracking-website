@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: gray;
+    background-color: #fff;
     padding: 1rem 2rem;
     box-shadow: 0 0.125rem 0.25rem rgba(189, 176, 176, 0.075);
      position: sticky;
@@ -21,7 +21,7 @@
     margin-right: 2rem;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #fff;
+    color: #333;
   
   }
   .brand:hover{
@@ -33,7 +33,7 @@
     margin-right: 2rem;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #fff;
+    color: #333;
     text-decoration: none;
   }
   

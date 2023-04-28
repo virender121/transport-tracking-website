@@ -2,9 +2,7 @@
 import style from './Footer.module.css';
 import { FiFacebook ,FiYoutube,FiTwitter, FiLinkedin } from 'react-icons/fi';
 import { RiSendPlaneFill } from 'react-icons/ri';
-// import About from '../../pages/About/About';
-import Contactus from '../../pages/Contact us/Contactus';
-import logo from '../Images/companylogo.jpg'
+import logo from '../Images/companylogo.jpg';
 
 export default function Footer(){
 
@@ -36,7 +34,7 @@ export default function Footer(){
                 </div>
                 <div className={style.footer_box_feature}>
                     <h3>Feature</h3>
-                    <Contactus/>
+                    {/* <Contactus/> */}
                 </div>
                 <div className={style.subscribe}>
                     <h3>Subscribe</h3>

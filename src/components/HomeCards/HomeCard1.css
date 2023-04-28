@@ -1,5 +1,5 @@
 .container_card1{
-  max-width: 90%;
+  max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/9a5ca0_8eceff71f4b8413dac97ab5745485785~mv2.png/v1/fill/w_556,h_669,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/images-2%201.png");
   background-position: center;
   background-size: cover;
@@ -22,7 +22,7 @@
   display: flex;
   justify-content:flex-end;
   margin-top: 20rem;
-  margin-bottom: 10rem;
+  margin-bottom: 20rem;
   background-color: var(--blue-color);
   width: calc(33.33% - 1rem);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
@@ -53,5 +53,8 @@
   width: 10rem;
   height:3rem;
 }
-
+.btn2:hover{
+  width: 50%;
+  height: 3.5rem;
+}
 

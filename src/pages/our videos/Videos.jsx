@@ -1,71 +1,24 @@
 import React from 'react'
-import "./Videos.css";
-import ReactPlayer from "react-player";
+import { Container } from 'react-bootstrap'
+import Footer from '../../components/Footer/Footer'
 
 const Videos = () => {
   return (
-    <>
-      <div className="about">
-        <div className="abt-video" id="About">
-          <ReactPlayer
-            width="80vw"
-            controls
-            url="https://www.youtube.com/embed/BR0jT6JxH-o"
-            
-          />
-          <div className="text">
-            <h1>Our Videos</h1>
-            <div className="text-2">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
-              veritatis hic neque corporis eos nobis quibusdam et, adipisci,
-              debitis obcaecati odit iste accusantium placeat quaerat eligendi
-              dolorem architecto libero necessitatibus?Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Optio qui nostrum fuga
-              repudiandae minima accusantium quasi, at fugiat velit sed eum
-              voluptatum corrupti expedita sequi natus beatae quis possimus
-              quibusdam.
-              <div className="btn-warn">
-                <button style={{color:"white", backgroundColor:"red"}}>Learn More</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="why-us">
-          <h1>Why Choose US?</h1>
-          <div className="text-2">
-            <li>
-              <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-                dolor illum laborum, saepe architecto vero earum libero dolores
-                modi? Et soluta eum aut facilis, quis nemo deserunt dignissimos
-                adipisci ea.
-              </span>
-            </li>
-            <div>
-              <li>
-                <span>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Cupiditate ut facilis at ipsa! Mollitia aut, consequuntur
-                  eligendi aliquid eum accusamus quos facere. Deleniti, impedit
-                  provident laboriosam ipsam in aliquam minus.
-                </span>
-              </li>
-            </div>
-          </div>
-        </div>
-        <div className="right-v" id="About">
-          <span>
-            <ReactPlayer
-              width="20vw"
-              controls
-              url="https://www.youtube.com/embed/BR0jT6JxH-o"
+    <div className='video'>
+      <Container>
+        <h1 className='Video_heading'>Some videos</h1>
+        <div className='devider'>
+      <div className=" ratio-16x9 abt-video">
+  <iframe   src="https://www.youtube.com/embed/YfDFKgGNP6s" title="YouTube video" allowFullScreen></iframe>
+</div>
+<div className='right-v' >
+  <h4 className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illum, cumque autem deleniti corporis facilis obcaecati facere labore accusantium sapiente dignissimos. Corporis iusto temporibus quibusdam eum. Similique sapiente voluptatem quos eveniet. Quos perferendis aut veritatis. Ea distinctio facilis hic quisquam explicabo quasi debitis reprehenderit sint?</h4>
+</div>
+</div>
+      </Container>
+      <Footer/>
+    </div>
+  )
+}
 
-            />
-          </span>
-        </div>
-        <hr />
-      </div>{" "}
-    </>
-  );
-};
 export default Videos

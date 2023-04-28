@@ -1,0 +1,33 @@
+.contact{
+    min-height: 35vh;
+    background-image: url("../../components/Images/contactbackground.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.header{
+    font-size: xx-large;
+    font-weight: bold;
+    color:#fff;
+}
+.cards{
+   
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+   background-color: #fff;
+
+}
+.card{
+    
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+ width: 30rem;
+ height: 25rem;
+ justify-content: center;
+}

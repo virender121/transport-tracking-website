@@ -10,10 +10,11 @@ const Home = () => {
   return (
     <div className='home'>
       <MyCarousel/>
-      <h2 className="homeheading fs-24 fw-6">200+ Features...</h2>
-      <HomeCard2/>
+    
+      
         <HowWorks/>
-          
+        <h2 className="homeheading fs-24 fw-6">200+ Features...</h2>
+        <HomeCard2/>
             <HomeCard1/>
           
         
