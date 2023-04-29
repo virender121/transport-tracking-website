@@ -10,6 +10,7 @@ import Subscription from './pages/Subscription/Subscription';
 // import Feature from './pages/feature/feature';
 import NavigationBar from './components/Navbar/Navbar';
 import VehicleManagement from './components/Vehicle Management/VehicleManagement';
+import NewSubscriber from './components/NewSubscriber/NewSubscriber';
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function App() {
         <Route path='/videos' element={<Videos />} />
         <Route path='/subscription' element={<Subscription />} />
         <Route path='/contact' element={<Contactus />} />
+        <Route path='/newSubscription' element={<NewSubscriber/>}/>
       </Routes>
     </div>
   );
