@@ -32,8 +32,7 @@ const MyCarousel = () => {
                       <li>
                         <h3 className="car-highlight3 wow fadeInDown animated" data-wow-duration="2400ms" data-wow-delay="900ms">
                           Online software - accessing and controlling from anywhere..!
-                        </h3>
-                      </li>
+                        </h3>                      </li>
                       <li>
                         <h3 className="car-highlight2 hidden-xs wow fadeInDown animated" data-wow-duration="1800ms" data-wow-delay="600ms">
                           Quick technical support..!
@@ -79,7 +78,7 @@ const MyCarousel = () => {
               <Carousel.Item interval={2000}>
                 <img src={ProductImage3} alt='carousel3' className='d-block w-100'/>
                 <Carousel.Caption>
-                <div>
+                {/* <div>
   <a href="#" className="btn btn-lg btn-borderwhite wow fadeInUp animated"
     style={{ visibility: "visible", animationDuration: "1500ms", animationDelay: "1600ms" }}>
     3PL Logistics Software Approved By Bajaj Auto Ltd.
@@ -92,7 +91,7 @@ const MyCarousel = () => {
     style={{ visibility: "visible", animationDuration: "1500ms", animationDelay: "1600ms" }}>
     E-way Bill / Part-B Integrated To Government Portal
   </a>
-</div>
+</div> */}
 
                 <h1 className="carouselText1 text-left wow fadeInUp animated"
     style={{ visibility: "visible", animationDuration: "1000ms", animationDelay: "150ms" }}>

@@ -8,6 +8,7 @@ export default function Footer(){
 
 
     return(
+        <>
         <div className={style.footer}>
             <div className={style.footer_box}>
                 <div className={style.footer_box_social}>
@@ -47,10 +48,20 @@ export default function Footer(){
                 <div className={style.subscribe_box_info}>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum numquam deserunt rerum voluptates recusandae modi dolore itaque quo?</p>
                 </div>
+               
             </div>
+          
+            
             </div>
+            <hr/>
         </div>
+        
+         <div className='flex-c fs-18'>
+        <h3 style={{marginTop:"0.5rem",marginBottom:"0.5rem"}}> &#169; 2023 Designed and managed by <span style={{color:'var(--bs-danger)'}}>Digitalshakha</span></h3>
+         </div>
+         </>
     )
+
 }
 
 

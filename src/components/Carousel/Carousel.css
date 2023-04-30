@@ -1,11 +1,9 @@
 
   
-  /* Apply animation to the h1 tag when it is in the active carousel item */
   .carousel-item.active h1 {
     animation: slideInFromTop 0.5s ease-in-out;
   }
   
-  /* Styles for the car-highlight1 class */
 .carouselText1 {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -52,30 +50,26 @@
   }
   
   
-  /* Styles for the car-highlight2 class */
   .car-highlight2 {
-    background-color: #008000; /* Green text */
-    font-size: 20px; /* Slightly smaller font size */
+    background-color: #008000; 
+    font-size: 20px; 
     color: #fff;
 
   }
   
-  /* Styles for the car-highlight3 class */
   .car-highlight3 {
-    color: #0000FF; /* Blue text */
-    font-size: 24px; /* Larger font size */
-    font-weight: bold; /* Bold font weight */
+    color: #0000FF; 
+    font-size: 24px; 
+    font-weight: bold;
   }
   
-  /* Styles for the car-mediumtext2 class */
   .car-mediumtext2 {
-    margin-left: 20px; /* Add some margin to the left */
+    margin-left: 20px; 
   }
   
-  /* Styles for the hidden-xs class (visible only on larger screens) */
   @media (min-width: 768px) {
     .hidden-xs {
-      display: none; /* Hide on smaller screens */
+      display: none; 
     }
   }
  .car-highlight1 {

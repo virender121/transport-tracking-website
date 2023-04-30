@@ -1,36 +1,34 @@
-/* .devider {
-    display: flex;
-    align-items: center;
-  }
-  
-  .abt-video {
-    flex: 1;
-  }
-  
-  .right-v {
-    flex: 1;
-  }
-  
-  .text {
-    max-width: 600px;
-    text-align: justify;
-    margin: 0 auto;
-  } */
-  .devider {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .abt-video {
-    flex: 1;
-    margin-right: 10px;
-  }
-  
-  .right-v {
-    flex: 1;
-    margin-left: 10px;
-  }
-  
-  
+.video {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.video-heading {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.video-containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.video-player {
+  width: 60%;
+  margin-right: 2rem;
+}
+
+.video-player iframe {
+  position: relative;
+
+}
+
+.video-description {
+  width: 35%;
+}
+
+.video-text {
+  font-size: 18px;
+  line-height: 1.5;
+}

@@ -1,5 +1,4 @@
 import React from 'react'
-import {CgOrganisation} from 'react-icons/cg';
 import './NewSubscriber.css'
 import Footer from '../Footer/Footer';
 const countries = [

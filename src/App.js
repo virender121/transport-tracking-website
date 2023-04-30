@@ -11,6 +11,7 @@ import Subscription from './pages/Subscription/Subscription';
 import NavigationBar from './components/Navbar/Navbar';
 import VehicleManagement from './components/Vehicle Management/VehicleManagement';
 import NewSubscriber from './components/NewSubscriber/NewSubscriber';
+import WhatsAppButton from './components/WhatsAppButton/WhatsAppButton';
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,7 @@ function App() {
         <Route path='/contact' element={<Contactus />} />
         <Route path='/newSubscription' element={<NewSubscriber/>}/>
       </Routes>
+      <WhatsAppButton/>
     </div>
   );
 }
