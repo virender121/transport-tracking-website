@@ -1,4 +1,4 @@
-.container_card1{
+/* .container_card1{
   max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/9a5ca0_8eceff71f4b8413dac97ab5745485785~mv2.png/v1/fill/w_556,h_669,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/images-2%201.png");
   background-position: center;
@@ -45,7 +45,7 @@
   font-size: 1.5rem;
 }
 .btn2{
-  /* display: flex; */
+  
   background-color: black;
   color: #fff;
   border-radius: 10px;
@@ -56,5 +56,16 @@
 .btn2:hover{
   width: 50%;
   height: 3.5rem;
-}
-
+} */
+   .homecard{
+    max-width: 100%;
+    background-image: url("https://static.wixstatic.com/media/9a5ca0_8eceff71f4b8413dac97ab5745485785~mv2.png/v1/fill/w_556,h_669,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/images-2%201.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+   }

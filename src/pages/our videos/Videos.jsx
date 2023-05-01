@@ -7,17 +7,19 @@ const Videos = () => {
   return (
     <div className='video'>
       <Container>
-        <h1 className='video-heading'>Some videos</h1>
-        <div className='video-containers'>
-          <div className='video-player'>
+        <h1 className='video-heading text-center'>Some videos</h1>
+        <div className='video-containers'  >
+          <div className=' text-center; width-60%'>
             <iframe
+            
               src='https://www.youtube.com/embed/M7SHEGIkLn4'
               title='YouTube video'
               allowFullScreen
             ></iframe>
           </div>
           <div className='video-description'>
-            <h4 className='video-text'>
+            <span className='text-center;'>
+            <h4 className='video-text text-center'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
               illum, cumque autem deleniti corporis facilis obcaecati facere
               labore accusantium sapiente dignissimos. Corporis iusto temporibus
@@ -25,6 +27,7 @@ const Videos = () => {
               perferendis aut veritatis. Ea distinctio facilis hic quisquam
               explicabo quasi debitis reprehenderit sint?
             </h4>
+            </span>
           </div>
         </div>
       </Container>
@@ -34,4 +37,3 @@ const Videos = () => {
 };
 
 export default Videos;
-

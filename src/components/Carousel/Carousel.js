@@ -16,36 +16,28 @@ const MyCarousel = () => {
               <Carousel.Item interval={2000}>
                 <img src={ProductImage1} alt='carousel1' className='d-block w-100'/>
                 <Carousel.Caption>
-                  <div>
-                  <h1 class="carouselText1 wow fadeInUp animated" data-wow-duration="2000ms" data-wow-delay="1000ms">Best part of software</h1>
-                    <ul className="list-unstyled car-mediumtext2">
-                      <li>
-                        <h3 className="car-highlight1 wow fadeInDown animated" data-wow-duration="1200ms" data-wow-delay="300ms">
-                          Operational part integrated to accounting ..!
-                        </h3>
-                      </li>
-                      <li>
-                        <h3 className="car-highlight2 hidden-xs wow fadeInDown animated" data-wow-duration="1800ms" data-wow-delay="600ms">
-                          User friendly design..!
-                        </h3>
-                      </li>
-                      <li>
-                        <h3 className="car-highlight3 wow fadeInDown animated" data-wow-duration="2400ms" data-wow-delay="900ms">
-                          Online software - accessing and controlling from anywhere..!
-                        </h3>                      </li>
-                      <li>
-                        <h3 className="car-highlight2 hidden-xs wow fadeInDown animated" data-wow-duration="1800ms" data-wow-delay="600ms">
-                          Quick technical support..!
-                        </h3>
-                      </li>
-                      <li>
-                        <h3 className="car-highlight1 wow fadeInDown animated" data-wow-duration="1200ms" data-wow-delay="300ms">
-                          Software customization as per requirement..!
-                        </h3>
-                      </li>
-                    </ul>
-                  </div>
-                </Carousel.Caption>
+  <div>
+    <h1 className="carouselText1 wow fadeInUp animated" data-wow-duration="2000ms" data-wow-delay="1000ms">Best part of software</h1>
+    <ul className="list-unstyled car-mediumtext2">
+      <li>
+        <h3 className="car-highlight1 wow fadeInDown animated" data-wow-duration="1200ms" data-wow-delay="300ms">
+          Operational part integrated to accounting ..!
+        </h3>
+      </li>
+      <li>
+        <h3 className="car-highlight3 wow fadeInDown animated" data-wow-duration="2400ms" data-wow-delay="900ms">
+          Online software - accessing and controlling from anywhere..!
+        </h3>                      
+      </li>
+      <li>
+        <h3 className="car-highlight1 wow fadeInDown animated" data-wow-duration="1200ms" data-wow-delay="300ms">
+          Software customization as per requirement..!
+        </h3>
+      </li>
+    </ul>
+  </div>
+</Carousel.Caption>
+
               </Carousel.Item>
               <Carousel.Item interval={2000}>
 

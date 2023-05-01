@@ -1,27 +1,33 @@
-import React from 'react'
-import './HomeCard1.css'
-import { HomeData } from '../../data/HomeData'
+import React from 'react';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { HomeData } from '../../data/HomeData';
+import './HomeCard1.css';
+
 const HomeCard1 = () => {
   return (
-    <div className='container_card1'>
-      <div className='homecard1'>
-      {
-        HomeData.map((home,id)=>{
+    <div clasName='home_card'>
+    <Container fluid className='container_card1'>
+      <Row className='justify-content-flex-end'>
+        {HomeData.map((home, id) => {
           return (
-            <div key={id} className='card1'>
-              <div className="card-header">
-                <h3>{home.heading}</h3>
-                <span>{home.description}</span>
-                <button className='btn2 fs-16'>Read more</button>
-              </div>
-            </div>
-          )
-        })
-      }
-      </div>
-      </div>
-    
-  )
-}
+            <Col key={id} md={4} className='mb-5 '>
+              <Card className='card1'>
+              
+                <Card.Body>
+                  <Card.Title>{home.heading}</Card.Title>
+                  <Card.Text>{home.description}</Card.Text>
+                  <Button variant='secondary' className='btn2 fs-16'>
+                    Read more
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          );
+        })}
+      </Row>
+    </Container>
+    </div>
+  );
+};
 
-export default HomeCard1
+export default HomeCard1;

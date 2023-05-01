@@ -1,16 +1,17 @@
 .homecard2 {
   display: flex;
   flex-wrap: wrap;
-  max-width: 100%;
+  max-width: 100%; 
+  margin: 1rem ;
+ 
+  padding: 8rem;
+  padding-top: 2rem;
+}
+.card_home{
+ 
+  /* padding: 10px; */
+  margin: 1rem;
 }
 
-.homecard2 .card {
-  width: 80%;
-  max-width: 100%;
-  padding: 10px;
-  margin: 1rem ;
-  margin-top: 2rem;
-  box-sizing: border-box;
-  background-color: rgb(47, 101, 117);
-  color: #fff;
-}
+
+ 

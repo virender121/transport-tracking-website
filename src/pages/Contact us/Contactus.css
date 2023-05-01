@@ -18,8 +18,10 @@
    
     display: flex;
     justify-content: space-around;
-    margin-top: 2rem;
-   background-color: #fff;
+    /* margin-top: 2rem; */
+   background-color: var( --bs-background);
+   padding: 10rem;
+   padding-top: 3rem;
 
 }
 .card{

@@ -7,7 +7,6 @@ import About from './pages/About/About';
 import Contactus from './pages/Contact us/Contactus';
 import Videos from './pages/our videos/Videos';
 import Subscription from './pages/Subscription/Subscription';
-// import Feature from './pages/feature/feature';
 import NavigationBar from './components/Navbar/Navbar';
 import VehicleManagement from './components/Vehicle Management/VehicleManagement';
 import NewSubscriber from './components/NewSubscriber/NewSubscriber';
@@ -23,7 +22,7 @@ function App() {
         <Route path='/videos' element={<Videos />} />
         <Route path='/subscription' element={<Subscription />} />
         <Route path='/contact' element={<Contactus />} />
-        <Route path='/newSubscription' element={<NewSubscriber/>}/>
+        <Route path='/newSubscription' element={<NewSubscriber />}/>
       </Routes>
       <WhatsAppButton/>
     </div>

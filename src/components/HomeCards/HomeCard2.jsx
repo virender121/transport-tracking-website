@@ -11,6 +11,7 @@ import {MdInventory} from 'react-icons/md';
 import {AiOutlineBarChart} from 'react-icons/ai';
 import {RiMailSendFill} from 'react-icons/ri';
 import {GoListUnordered }from 'react-icons/go';
+import { Card, Col} from 'react-bootstrap';
 import './HomeCard2.css'
 
 const featureData = [{
@@ -103,21 +104,26 @@ const featureData = [{
 const HomeCard2 = () => {
   return (
     <div className='homecard2'>
-     
         {
           featureData.map(({icon,text},index)=>{
             return (
-              <div key={index} className="col-md-4">
-                <div className="card fs-16">
-                  <p style={{widgth:"15px",height:'15px'}}>{icon}</p>
-                  <p>{text}</p>
-                </div>
-              </div>
+              <Col md={4} key={index} className=' text-center; margin-2rem'>
+                <Card className="fs-16 card_home ">
+                  <Card.Body className='bg-blue '>
+                    <Card.Title>
+                    {icon}
+                    </Card.Title>
+                    <Card.Text>
+                      {text}
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
             )
           })
         }
     </div>
-  )
-}
-
-export default HomeCard2
+    );
+ }    
+       
+export default HomeCard2;

@@ -33,6 +33,35 @@
     animation-delay: 150ms; 
   }
 
+  @media only screen and (max-width: 320px) {
+    .carouselText1 {
+      font-size: 14px;
+      padding: 5px 2px 5px 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 321px) and (max-width: 480px) {
+    .carouselText1 {
+      font-size: 16px;
+      padding: 5px 5px 5px 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .carouselText1 {
+      font-size: 20px;
+      padding: 5px 10px 5px 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) {
+    .carouselText1 {
+      font-size: 25px;
+      padding: 5px 20px 5px 0px;
+    }
+  }
+  
+  
   .wow.fadeInDown {
     visibility: visible;
     animation-name: fadeInDown;
@@ -67,11 +96,26 @@
     margin-left: 20px; 
   }
   
-  @media (min-width: 768px) {
+  /* @media (min-width: 768px) {
     .hidden-xs {
       display: none; 
     }
+  } */
+  @media only screen and (max-width: 767px) {
+    .hidden-xs {
+      display: none;
+    }
+    .car-highlight2 {
+      font-size: 16px;
+    }
+    .car-highlight3 {
+      font-size: 20px;
+    }
+    .car-mediumtext2 {
+      margin-left: 10px;
+    }
   }
+  
  .car-highlight1 {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -133,6 +177,71 @@
     animation-duration: 2400ms;
     animation-delay: 900ms;
 }
+
+@media (max-width: 768px) {
+  .car-highlight1 {
+    font-size: 16px;
+    padding: 10px;
+    border-width: 5px;
+    border-radius: 3px;
+  }
+
+  .car-highlight3 {
+    font-size: 16px;
+    padding: 10px;
+    border-width: 5px;
+    border-radius: 3px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .car-highlight1 {
+    font-size: 17px;
+    padding: 12px;
+    border-width: 7px;
+    border-radius: 4px;
+  }
+
+  .car-highlight3 {
+    font-size: 17px;
+    padding: 12px;
+    border-width: 7px;
+    border-radius: 4px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .car-highlight1 {
+    font-size: 18px;
+    padding: 15px 10px 15px 10px;
+    border-width: 10px;
+    border-radius: 5px;
+  }
+
+  .car-highlight3 {
+    font-size: 18px;
+    padding: 15px 10px 15px 10px;
+    border-width: 10px;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .car-highlight1 {
+    font-size: 18px;
+    padding: 15px 10px 15px 10px;
+    border-width: 10px;
+    border-radius: 5px;
+  }
+
+  .car-highlight3 {
+    font-size: 18px;
+    padding: 15px 10px 15px 10px;
+    border-width: 10px;
+    border-radius: 5px;
+  }
+}
+
 .list-unstyled {
     padding-left: 0;
     list-style: none;
