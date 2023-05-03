@@ -6,7 +6,7 @@ import './HomeCard1.css';
 const HomeCard1 = () => {
   return (
     <div clasName='home_card'>
-    <Container fluid className='container_card1'>
+    <Container fluid className=''>
       <Row className='justify-content-flex-end'>
         {HomeData.map((home, id) => {
           return (
@@ -16,7 +16,7 @@ const HomeCard1 = () => {
                 <Card.Body>
                   <Card.Title>{home.heading}</Card.Title>
                   <Card.Text>{home.description}</Card.Text>
-                  <Button variant='secondary' className='btn2 fs-16'>
+                  <Button variant='success' className='btn2 fs-16'>
                     Read more
                   </Button>
                 </Card.Body>

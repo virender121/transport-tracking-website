@@ -19,31 +19,31 @@ return (
 <Container className='card2 flex-column'>
 <h3 className='heading_sub'>Get your free account now!</h3>
 <Form>
-<Form.Group controlId='formCompanyName'>
+<Form.Group controlId='formCompanyName' className='w-50 '>
 <Form.Label>Company Name</Form.Label>
 <Form.Control type='text' placeholder='Enter company name' required style={{ width: "100%" }} />
 </Form.Group>
-<Form.Group controlId='formName'>
+<Form.Group controlId='formName' className='w-50 '>
           <Form.Label>Your Name</Form.Label>
           <Form.Control type='text' placeholder='Enter your name' required style={{ width: "100%" }} />
         </Form.Group>
 
-        <Form.Group controlId='formEmail'>
+        <Form.Group controlId='formEmail' className='w-50 '>
           <Form.Label>Your Email</Form.Label>
           <Form.Control type='email' placeholder='Enter your email' required style={{ width: "100%" }} />
         </Form.Group>
 
-        <Form.Group controlId='formPhoneNumber'>
+        <Form.Group controlId='formPhoneNumber' className='w-50 '>
           <Form.Label>Phone Number</Form.Label>
           <Form.Control type='number' placeholder='Enter phone number' required style={{ width: "100%" }} />
         </Form.Group>
 
-        <Form.Group controlId='formPassword'>
+        <Form.Group controlId='formPassword' className='w-50 '>
           <Form.Label>Password</Form.Label>
           <Form.Control type='password' placeholder='Enter password' required style={{ width: "100%" }} />
         </Form.Group>
 
-        <Form.Group controlId='formCountry'>
+        <Form.Group controlId='formCountry' className='w-50 '>
           <Form.Label>Your Country</Form.Label>
           <Form.Control as='select' defaultValue='' style={{ width: "100%" }}>
             {countries.map((country) => (
@@ -54,9 +54,9 @@ return (
           </Form.Control>
         </Form.Group>
 
-        <Form.Group controlId='formState'>
+        <Form.Group controlId='formState'  className='w-50 ' >
           <Form.Label>Your State</Form.Label>
-          <Form.Control type='text' placeholder='Enter state' style={{ width: "100%" }} />
+          <Form.Control type='text' placeholder='Enter state'  />
         </Form.Group>
 
         <hr />
